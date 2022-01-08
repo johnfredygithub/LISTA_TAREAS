@@ -1,13 +1,39 @@
-import './App.css';
-import Header from "./componentes/Headers"
+import React, { useState } from "react";
+import "./App.css";
+import Header from "./componentes/Headers";
+import FormularioTareas from "./componentes/FormularioTareas";
+import ListaTareas from "./componentes/ListaTareas";
 
-const App=()=> {
+const App = () => {
+  const [tareas, cambiarTareas] = useState([
+    {
+      id: 1,
+      texto: "lavar ropa",
+      completada: false,
+    },
+    {
+      id: 2,
+      texto: "2222222222222lavar ropa",
+      completada: true,
+    },
+  ]);
+  const [mostrarCompletadas,cambiarMostrarCompletadas] = useState(false);
+  
+
+  ///console.log(tareas);
   return (
     <div className="contenedor">
-     <Header/> 
-    <h1></h1>
+      <Header 
+       mostrarCompletadas={mostrarCompletadas}
+       cambiarMostrarCompletadas={cambiarMostrarCompletadas}/>
+      <FormularioTareas tareas={tareas} cambiarTareas={cambiarTareas} />
+      <ListaTareas 
+      tareas={tareas} 
+      cambiarTareas={cambiarTareas}
+      mostrarCompletadas={mostrarCompletadas}
+       />
     </div>
   );
-}
+};
 
 export default App;
