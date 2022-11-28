@@ -1,6 +1,7 @@
-<video src="https://user-images.githubusercontent.com/72414786/204306105-798d2fb2-a280-4ae7-aa81-7f53b4f11180.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px;">
+
 
 # Getting Started with Create React App
+<video src="https://user-images.githubusercontent.com/72414786/204306105-798d2fb2-a280-4ae7-aa81-7f53b4f11180.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px;">
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
