@@ -1,15 +1,14 @@
 
 
 # Getting Started with Create React App
-<video src="https://user-images.githubusercontent.com/72414786/204306105-798d2fb2-a280-4ae7-aa81-7f53b4f11180.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px;">
-
+<video src="https://user-images.githubusercontent.com/72414786/204306105-798d2fb2-a280-4ae7-aa81-7f53b4f11180.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px;"></video>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm install` `npm run start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
